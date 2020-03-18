@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: black;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    /* Add padding to containers */
+    .container {
+      padding: 16px;
+      background-color: grey;
+    }
+
+    /* Full-width input fields */
+    input[type=text], input[type=password] {
+      width: 100%;
+      padding: 15px;
+      margin: 5px 0 22px 0;
+      display: inline-block;
+      border: none;
+      background: #f1f1f1;
+    }
+
+    input[type=text]:focus, input[type=password]:focus {
+      background-color: #ddd;
+      outline: none;
+    }
+
+    /* Overwrite default styles of hr */
+    hr {
+      border: 1px solid #f1f1f1;
+      margin-bottom: 25px;
+    }
+
+    /* Set a style for the submit button */
+    .registerbtn {
+      background-color: #4CAF50;
+      color: white;
+      padding: 16px 20px;
+      margin: 8px 0;
+      border: none;
+      cursor: pointer;
+      width: 100%;
+      opacity: 0.9;
+    }
+
+    .registerbtn:hover {
+      opacity: 1;
+    }
+
+    /* Add a blue text color to links */
+    a {
+      color: dodgerblue;
+    }
+
+    /* Set a grey background color and center the text of the "sign in" section */
+    .signin {
+      background-color: #f1f1f1;
+      text-align: center;
+    }
+
+
+    </style>
+
+
+
+  </head>
+  <body>
+    <form action="/action_page.php">
+      <div class="container">
+        <h1>Dispatch Form</h1>
+        <p>Please fill in this form to receive the passport.</p>
+        <hr>
+
+        <label for="address"><b>Address</b></label>
+        <input type="text" placeholder="Enter address" name="address" required>
+
+        <p>
+          <b>State</b>
+          <select>
+            <option value="uttarakhand">uttarakhand</option>
+            <option value="maharashtra">maharashtra</option>
+            <option value="andhra pradesh">andhra pradesh</option>
+            <option value="madhya pradesh">madhya pradesh</option>
+            <option value="arunachal pradesh">arunachal pradesh</option>
+            <option value="assam">assam</option>
+            <option value="bihar">bihar</option>
+            <option value="goa">goa</option>
+            <option value="gujrat">gujarat</option>
+            <option value="uttar pradesh">uttar pradesh</option>
+            <option value="haryana">haryana</option>
+            <option value="chattisgarh">chattisgarh</option>
+            <option value="karnataka">karnataka</option>
+            <option value="jharkhand">jharkhand</option>
+            <option value="kerala">kerala</option>
+            <option value="manipur">manipur</option>
+            <option value="rajasthan">rajasthan</option>
+            <option value="tamilnadu">tamilnadu</option>
+            <option value="jammu and kashmir">jammu and kashmir</option>
+            <option value="punjab">punjab</option>
+            <option value="goa">goa</option>
+            <option value="telangana">telangana</option>
+            <option value="west bengal">west bengal</option>
+            <option value="odisha">odisha</option>
+            <option value="nagaland">nagaland</option>
+            <option value="himachal pradesh">himachal pradesh</option>
+            <option value="sikkim">sikkim</option>
+            <option value="tripura">tripura</option>
+            <option value="meghalaya">meghalaya</option>
+            <option value="mizoram">mizoram</option>
+          </select>
+        </p>
+
+        <p>
+          <b>City</b>
+          <select>
+            <option value="lucknow">lucknow</option>
+            <option value="kanpur">kanpur</option>
+            <option value="dehradun">dehradun</option>
+            <option value="roorkee">roorkee</option>
+            <option value="indore">indore</option>
+            <option value="bangalore">bangalore</option>
+            <option value="hyderabad">hyderabad</option>
+            <option value="mumbai">mumbai</option>
+            <option value="kolkata">kolkata</option>
+            <option value="ahmedabad">ahmedabad</option>
+            <option value="delhi">delhi</option>
+            <option value="chennai">chennai</option>
+            <option value="pune">pune</option>
+            <option value="patna">patna</option>
+            <option value="banaras">banaras</option>
+            <option value="agra">agra</option>
+            <option value="ranchi">ranchi</option>
+            <option value="raipur">raipur</option>
+            <option value="haridwar">haridwar</option>
+            <option value="nainital">nainital</option>
+            <option value="bengaluru">bengaluru</option>
+            <option value="jaipur">jaipur</option>
+            <option value="bhopal">bhopal</option>
+            <option value="surat">surat</option>
+            <option value="kochi">kochi</option>
+            <option value="pragyaraj">pragyaraj</option>
+            <option value="chandigarh">chandigarh</option>
+            <option value="varanasi">varanasi</option>
+            <option value="vishakhapatnam">vishakhapatnam</option>
+            <option value="nagpur">nagpur</option>
+            <option value="bhubaneshwar">bhubaneshwar</option>
+            <option value="coimbatore">coimbatore</option>
+            <option value="jabalpur">jabalpur</option>
+            <option value="madurai">madurai</option>
+            <option value="vadodra">vadodra</option>
+            <option value="guwahati">guwahati</option>
+            <option value="mangalore">mangalore</option>
+            <option value="jodhpur">jodhpur</option>
+            <option value="amritsar">amritsar</option>
+            <option value="gurugram">gurugram</option>
+            <option value="udaipur">udaipur</option>
+            <option value="faridabad">faridabad</option>
+            <option value="ludhiyana">ludhiyana</option>
+            <option value="gwalior">gwalior</option>
+            <option value="gaziabad">gaziabad</option>
+            <option value="nashik">nashik</option>
+            <option value="aurangabad">aurangabad</option>
+            <option value="jamshedpur">jamshedpur</option>
+            <option value="tiruchirappalli">tiruchirappalli</option>
+            <option value="vijayawada">vijayawada</option>
+            <option value="shimla">shimla</option>
+            <option value="mysuru">mysuru</option>
+            <option value="rajkot">rajkot</option>
+            <option value="thrisur">thrisur</option>
+            <option value="jalandhar">jalandhar</option>
+            <option value="kozhikode">kozhikode</option>
+            <option value="thiruvanthapuram">thiruvanthapuram</option>
+          </select>
+        </p>
+
+
+        <label for="pincode"><b>Pincode</b></label>
+        <input type="text" placeholder="Enter pincode" name="pincode" required>
+
+        <label for="phone"><b>Phone Number</b></label>
+        <input type="text" placeholder="Enter phone" name="phone" required>
+        <p>
+          <form action=""><b>Available Hours</b>
+            <p>
+              <input type="radio" name="time" value="9:00 am-12:00 pm"> 9:00 am-12:00 pm<br>
+              <input type="radio" name="time" value="2:00 pm- 5:00 pm">2:00 pm- 5:00 pm<br>
+            </p>
+
+
+<button type="submit" class="registerbtn"><a href="Final.html">Submit</a></button>
+        </form>
+        </p>
+
+
+        </form>
+        </p>
+  </body>
+</html>
